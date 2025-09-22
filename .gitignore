@@ -1,0 +1,9 @@
+# .gitignore
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+
+# Ignorar arquivos compilados e binários
+CartasSuperTrunfo
+*.exe
+*.out
