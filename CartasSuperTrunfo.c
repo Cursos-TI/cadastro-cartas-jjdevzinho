@@ -109,40 +109,26 @@ int main()
   // Área para comparação das cartas
   printf("=== COMPARAÇÃO DE CARTAS ===\n");
   
-  // População: maior vence
-  printf("População: Carta %d venceu (%d)\n", 
-         (populacao1 > populacao2) ? 1 : 2, 
-         (populacao1 > populacao2) ? 1 : 0);
+  // População: maior vence (comparação direta retorna 1 ou 0)
+  printf("População: Carta 1 venceu (%d)\n", populacao1 > populacao2);
   
   // Área: maior vence
-  printf("Área: Carta %d venceu (%d)\n", 
-         (area1 > area2) ? 1 : 2, 
-         (area1 > area2) ? 1 : 0);
+  printf("Área: Carta 1 venceu (%d)\n", area1 > area2);
   
   // PIB: maior vence
-  printf("PIB: Carta %d venceu (%d)\n", 
-         (pib1 > pib2) ? 1 : 2, 
-         (pib1 > pib2) ? 1 : 0);
+  printf("PIB: Carta 1 venceu (%d)\n", pib1 > pib2);
   
   // Pontos Turísticos: maior vence
-  printf("Pontos Turísticos: Carta %d venceu (%d)\n", 
-         (pontosTuristicos1 > pontosTuristicos2) ? 1 : 2, 
-         (pontosTuristicos1 > pontosTuristicos2) ? 1 : 0);
+  printf("Pontos Turísticos: Carta 1 venceu (%d)\n", pontosTuristicos1 > pontosTuristicos2);
   
-  // Densidade Populacional: MENOR vence (inverso dos outros)
-  printf("Densidade Populacional: Carta %d venceu (%d)\n", 
-         (densidadePopulacional1 < densidadePopulacional2) ? 1 : 2, 
-         (densidadePopulacional1 < densidadePopulacional2) ? 1 : 0);
+  // Densidade Populacional: MENOR vence (usa < ao invés de >)
+  printf("Densidade Populacional: Carta 1 venceu (%d)\n", densidadePopulacional1 < densidadePopulacional2);
   
   // PIB per Capita: maior vence
-  printf("PIB per Capita: Carta %d venceu (%d)\n", 
-         (pibPerCapita1 > pibPerCapita2) ? 1 : 2, 
-         (pibPerCapita1 > pibPerCapita2) ? 1 : 0);
+  printf("PIB per Capita: Carta 1 venceu (%d)\n", pibPerCapita1 > pibPerCapita2);
   
   // Super Poder: maior vence
-  printf("Super Poder: Carta %d venceu (%d)\n", 
-         (superPoder1 > superPoder2) ? 1 : 2, 
-         (superPoder1 > superPoder2) ? 1 : 0);
+  printf("Super Poder: Carta 1 venceu (%d)\n", superPoder1 > superPoder2);
 
   return 0;
 }
