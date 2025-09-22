@@ -1,3 +1,8 @@
+> ⚠️ **Nota:** Peço desculpas pelo envio antecipado deste desafio. Ainda estou trabalhando nas demais etapas do desafio e finalizarei em breve. O envio foi um descuido.
+
+
+
+
 # Desafio Super Trunfo - Países - Cadastro das Cartas
 
 Bem-vindo ao desafio "Super Trunfo - Países"! No jogo Super Trunfo, os jogadores comparam as propriedades das cartas para determinar a mais forte. O tema deste Super Trunfo é "Países," onde você comparará as propriedades das cidades.
