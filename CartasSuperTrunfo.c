@@ -50,7 +50,7 @@ int main()
   printf("Digite o código da carta (formato: A01 a H04): ");
   scanf("%s", codigo2);
   printf("Digite o nome da cidade: ");
-  scanf(" %49[^\n]", nomeCidade2);
+  scanf(" %49[^\n]", nomeCidade2); // Usando " %49[^\n]" para ler strings com espaços
   printf("Digite a população: ");
   scanf("%d", &populacao2);
   printf("Digite a área (em km²): ");
